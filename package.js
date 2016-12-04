@@ -1,7 +1,7 @@
 Package.describe({
   name: 'c9s:nsq',
 
-  version: '0.14.6_3',
+  version: '0.14.6_4',
 
   // Brief, one-line summary of the package.
   summary: 'NSQ client actually written in javascript',
