@@ -15,7 +15,8 @@ Package.describe({
 });
 
 Npm.depends({
-  "nsq.js": "0.14.6"
+  "nsq.js": "0.14.6",
+  "bignum": "0.12.1"
 });
 
 Package.onUse(function(api) {
