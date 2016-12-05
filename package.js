@@ -1,7 +1,7 @@
 Package.describe({
   name: 'c9s:nsq',
 
-  version: '0.14.6_5',
+  version: '0.14.6_6',
 
   // Brief, one-line summary of the package.
   summary: 'NSQ client actually written in javascript',
@@ -16,7 +16,7 @@ Package.describe({
 
 Npm.depends({
   "nsq.js": "0.14.6",
-  "bignum": "0.12.1"
+  "node-pre-gyp": "0.6.32"
 });
 
 Package.onUse(function(api) {
